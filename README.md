@@ -19,9 +19,9 @@ A native iOS app for fans of Breaking Bad and Better Call Saul. Explore quotes, 
 
 ## Screenshots
 
-![App Screenshot 1](BBQUOTES/Assets.xcassets/screenshot1.imageset)
-![App Screenshot 2](BBQUOTES/Assets.xcassets/screenshot2.imageset)
-![App Screenshot 2](BBQUOTES/Assets.xcassets/screenshot3.imageset)
+![App Screenshot 1](BBQUOTES/Assets.xcassets/screenshot3.imageset/screenshot3.png)
+![App Screenshot 2](BBBQUOTES/Assets.xcassets/screenshot2.imageset/screenshot2.png)
+![App Screenshot 2](BBQUOTES/Assets.xcassets/screenshot1.imageset/screenshot1.png)
 
 ## Installation
 
