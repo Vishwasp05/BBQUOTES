@@ -1,24 +1,35 @@
 //
 //  ContentView.swift
-//  BBQUOTES
+//  BBQuotes
 //
-//  Created by Vishwas Sharma on 22/03/24.
+//  Created by Vishwas Sharma on 18/03/24.
 //
 
 import SwiftUI
-
+ 
+/// ContentView View
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            QuoteView(show: Constants.bbName)
+                .tabItem {
+                    Label("Breaking bad", systemImage: "tortoise")
+                }
+            QuoteView(show: Constants.bcsName)
+                .tabItem {
+                    Label("Better call Saul", systemImage: "briefcase")
+                }
         }
-        .padding()
+        .onAppear {
+            UITabBar.appearance().scrollEdgeAppearance = UITabBarAppearance()
+        }
+        .preferredColorScheme(.dark)
+        
+        
     }
 }
 
 #Preview {
     ContentView()
 }
+
