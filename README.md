@@ -12,7 +12,7 @@ A native iOS app for fans of Breaking Bad and Better Call Saul. Explore quotes, 
 ## Technologies Used
 
 - Swift
-- UIKit
+- SwiftUI
 - Observable Objects (@Published, @StateObject)
 - MVVM Architecture
 - API Service
